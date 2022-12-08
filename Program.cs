@@ -16,6 +16,8 @@ namespace ExpenseTracker
             
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DevConnection")));
 
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("Mgo+DSMBMAY9C3t2VVhjQlFac1lJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRd0djUX5WdHNURmZZWEA=");
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
